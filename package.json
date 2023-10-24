@@ -44,13 +44,13 @@
     "icons:update": "ts-node -P scripts/icons scripts/icons/icons-update.ts",
     "icons:generate": "ts-node -P scripts/icons scripts/icons/icons-generate.ts"
   },
-  "author": "RedNinjas LTD",
+  "author": "The Wizard of Hahz",
   "license": "MIT",
-  "description": "Himalaya is a modern and minimalist UI library for NextJS 13.",
-  "homepage": "https://himalaya-ui.com",
+  "description": "The highest form of premium content.",
+  "homepage": "https://nftv.luvnft.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/red-ninjas/himalaya-ui.git"
+    "url": "git+https://github.com/blkluv/himalaya-ui.git"
   },
   "bugs": {
     "url": "https://github.com/red-ninjas/himalaya-ui/issues"
@@ -196,15 +196,17 @@
     "styled-jsx": "^5.1.2"
   },
   "dependencies": {
-    "fancy-canvas": "^2.1.0",
+    "@angular-devkit/core": "^16.2.7",
     "@babel/runtime": "^7.23.1",
+    "@heroicons/react": "v1",
     "@splidejs/splide": "^4.1.4",
-    "react-i18next": "^13.2.2",
-    "moment": "^2.29.4",
-    "use-elapsed-time": "^3.0.4",
-    "values.js": "^2.1.1",
-    "nookies": "^2.5.2",
+    "fancy-canvas": "^2.1.0",
     "i18next": "^23.5.1",
-    "i18next-browser-languagedetector": "^7.1.0"
+    "i18next-browser-languagedetector": "^7.1.0",
+    "moment": "^2.29.4",
+    "nookies": "^2.5.2",
+    "react-i18next": "^13.2.2",
+    "use-elapsed-time": "^3.0.4",
+    "values.js": "^2.1.1"
   }
 }

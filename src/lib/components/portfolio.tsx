@@ -129,6 +129,7 @@ export default function Portfolio() {
               width={578}
               height={578}
               title="HEALXYZ"
+              url="https://discord.gg/nX4HVBNJXF"
               desc="The world needs healing. Get paid to share your gift with subscribers in a video, live audio rooms or live on @healxyz. Your talent shines brightest when performed live."
             />
             <PortfolioItem
@@ -136,6 +137,7 @@ export default function Portfolio() {
               width={578}
               height={578}
               title="LUV GAMES"
+              url="https://luvgames.luvnft.com"
               desc="Promote your business with a game to earn $LUV. Go on a live date or post a TikTok video on Zodiac Mate to attract a compatible partner."
             />
           </div>
@@ -147,6 +149,7 @@ export default function Portfolio() {
               width={578}
               height={578}
               title="ADUBNB"
+              url="https://discord.com/channels/1164180431181201438/shop"
               desc="Subscribe to hosts, superhosts, and service providers collaborating to address the affordable housing crisis through ADUBNB sales and rentals."
             />
             <PortfolioItem

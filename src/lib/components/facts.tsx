@@ -57,7 +57,7 @@ export default function Facts() {
         <div className="header" ref={ref}>
           <FadeInEffect translateY="4rem">
             <Hero.Tag hasGradient={true} gradient={theme.palette.gradient_3}>
-              Our facts
+              EARNINGS
             </Hero.Tag>
           </FadeInEffect>
           <FadeInEffect translateY="4rem">
@@ -67,21 +67,25 @@ export default function Facts() {
               h4
               font={'clamp(24px, 3.1vw, 48px)'}
               style={{ fontWeight: '700', lineHeight: '1.2' }}>
-              We take pride in elegantly solving complex problems and releasing
-              outstanding products for free to the market.
+              We take pride in empowering creators to earn up 
+              to $9,999 per month in subscriptions, whereas 
+              platforms like TikTok and Instagram have a monthly
+              ceiling of $99. We tax creators the least amount.
             </Text>
           </FadeInEffect>
         </div>
         <Grid.Container gap={5} justify="center">
-          <Grid xs={24} md={8} justify="center">
-            <FactItem title="Components" amount={72} />
-          </Grid>
-          <Grid xs={24} md={8} justify="center">
-            <FactItem title="Contributors" amount={8} />
-          </Grid>
-          <Grid xs={24} md={8} justify="center">
-            <FactItem title="Forks" amount={328} />
-          </Grid>
+        <Grid.Container>
+            <Grid xs={24} md={8} justify="center">
+        <FactItem title="NFTV" amount={20} />
+            </Grid>
+            <Grid xs={24} md={8} justify="center">
+        <FactItem title="TikTok" amount={50} />
+            </Grid>
+            <Grid xs={24} md={8} justify="center">
+        <FactItem title="Instagram" amount={30} />
+            </Grid>
+        </Grid.Container>
         </Grid.Container>
 
         <style jsx>{`
