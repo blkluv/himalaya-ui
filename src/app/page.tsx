@@ -1,6 +1,5 @@
 'use client'
 
-import { Code } from 'components/icons'
 import { HeartIcon } from '@heroicons/react/solid';
 import {
   Button,
