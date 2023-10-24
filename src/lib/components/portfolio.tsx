@@ -52,8 +52,8 @@ export function PortfolioItem({
         </FadeInEffect>
         <FadeInEffect translateY="4rem" blur={10}>
           {url && (
-            <Link target="_blank" href={url}>
-              <Button auto>Source code</Button>
+            <Link target="https://ateam.arvrtise.com" href={url}>
+              <Button auto>Invite</Button>
             </Link>
           )}
 
