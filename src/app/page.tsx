@@ -40,34 +40,31 @@ export default function Index() {
           <Hero>
             <Grid.Container gap={0} justify="center">
               <Grid lg={22} justify="center">
-                <Hero.Tag>HIMALAYA UI</Hero.Tag>
+                <Hero.Tag>NFTV</Hero.Tag>
               </Grid>
               <Grid lg={22} justify="center">
                 <Hero.Title>
-                  Scaling Heights of <GradientWord>Design Excellence</GradientWord>: Your
-                  UI Journey{' '}
-                  <span style={{ textDecoration: 'underline', fontWeight: 300 }}>
-                    Begins Here!
-                  </span>
+                  Scaling Heights of <GradientWord>Premium Content</GradientWord>: With
+                  <GradientWord>Live</GradientWord>social media shows.
                 </Hero.Title>
               </Grid>
               <Grid lg={18} justify="center">
                 <Hero.Desc>
-                  Elevate your Next.js web development with our open-source UI library,
-                  offering a comprehensive suite of customizable components for building
-                  modern and user-friendly interfaces.
+                  Elevate your entertainment with content that aligns with your vibe.
+                  Subscribe to creator channels you want to tap into, free from algorithms
+                  and ads. Be part of shaping the future of NFTV by casting your vote.
                 </Hero.Desc>
               </Grid>
             </Grid.Container>
             <Hero.Actions>
-              <Link href={'/guide/'}>
+              <Link href={'https://luvgames.luvnft.com'}>
                 <Button auto icon={<Code></Code>} scale={1.3}>
-                  Documentation
+                  LUV Games
                 </Button>
               </Link>
-              <Link href={'/guide/'}>
+              <Link href={'https://ateam.arvrtise.com'}>
                 <Button type="secondary" scale={1.3}>
-                  Installation
+                  Arvrtise
                 </Button>
               </Link>
             </Hero.Actions>
@@ -129,9 +126,9 @@ export default function Index() {
         </FooterBottom.Block>
         <FooterBottom.Block justify="flex-end">
           <Text span font={'12px'} style={{ color: theme.palette.accents_5 }}>
-            With support of{' '}
-            <Link color href="https://redninjas.dev" target="_blank">
-              RedNinjas LTD
+            Made with {' '}
+            <Link color href="https://luvnft.com" target="_blank">
+              LUV NFT
             </Link>
           </Text>
         </FooterBottom.Block>

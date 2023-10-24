@@ -95,7 +95,7 @@ export default function Portfolio() {
         <div className="header">
           <FadeInEffect translateY="4rem">
             <Hero.Tag hasGradient={true} gradient={theme.palette.gradient_2}>
-              Projects
+              NETWORKS
             </Hero.Tag>
           </FadeInEffect>
           <FadeInEffect translateY="4rem">
@@ -127,37 +127,37 @@ export default function Portfolio() {
         <Grid xs={24} md={12}>
           <div className="portfolio-list">
             <PortfolioItem
-              image="https://picsum.photos/id/2/578/578"
+              image="https://ibb.co/PQ7D3Nf"
               width={578}
               height={578}
-              title="TurtleTrade"
-              desc="TurtleTrade is your free gateway to stock market success, providing cutting-edge forecasting and analysis tools for informed investment decisions."
+              title="HEALXYZ"
+              desc="The world needs healing. Get paid to share your gift with subscribers in a video, live audio rooms or live on @healxyz. Your talent shines brightest when performed live."
             />
             <PortfolioItem
-              image="https://picsum.photos/id/2/578/750"
+              image="https://ibb.co/wJnbD77"
               width={578}
-              height={750}
-              title="Striked"
-              desc="Striked is the ultimate social network connecting gamers and game developers, where gaming's pulse beats through a vibrant community of shared passion and innovation."
+              height={578}
+              title="LUV GAMES"
+              desc="Promote your business with a game to earn $LUV. Go on a live date or post a TikTok video on Zodiac Mate to attract a compatible partner."
             />
           </div>
         </Grid>
         <Grid xs={24} md={12}>
           <div className="portfolio-list">
             <PortfolioItem
-              image="https://picsum.photos/id/2/578/750"
+              image="https://ibb.co/8PNfPMJ"
               width={578}
-              height={750}
-              title="RedNinjas"
-              desc="At RedNinjas, we're the digital agency that thrives on crafting innovative products across diverse industries, fueled by a passion for creativity and excellence."
+              height={578}
+              title="ADUBNB"
+              desc="Subscribe to hosts, superhosts, and service providers collaborating to address the affordable housing crisis through ADUBNB sales and rentals."
             />
             <PortfolioItem
               width={578}
               height={578}
               image="/images/himalaya-preview.png"
-              title="Himalaya"
-              url="https://github.com/red-ninjas/himalaya-ui"
-              desc="Himalaya, our open-source library's documentation page, serves as a comprehensive guide, unveiling the majestic peaks of functionality and customization, with clear paths to explore its towering potential."
+              title="ARVRTISE"
+              url="https://ibb.co/HFX6MPL"
+              desc="Get live assistance for your marketing needs, promote your business in real-time, or discover exclusive local deals."
             />
           </div>
         </Grid>

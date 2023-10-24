@@ -19,7 +19,7 @@ export default function Services() {
       <FadeInEffect translateY="4rem">
         <div className="header">
           <FadeInEffect translateY="4rem">
-            <Hero.Tag hasGradient={true}>UI library</Hero.Tag>
+            <Hero.Tag hasGradient={true}>$LUV</Hero.Tag>
           </FadeInEffect>
           <FadeInEffect translateY="4rem">
             <Text
@@ -28,7 +28,7 @@ export default function Services() {
               h4
               font={'clamp(24px, 3.1vw, 48px)'}
               style={{ fontWeight: '700', lineHeight: '1.2' }}>
-              Scaling Excellence: UI Components Beyond Limits
+              $LUV is the new like airdropped to creators and subscribers
             </Text>
           </FadeInEffect>
           <FadeInEffect translateY="4rem">
@@ -38,8 +38,9 @@ export default function Services() {
               p
               font={'clamp(14px, 1.2vw, 16px)'}
               style={{ color: theme.palette.accents_6, fontWeight: 400 }}>
-              Unlock unparalleled scalability and performance with our high-scalable UI
-              components, designed to meet the demands of your most ambitious projects.
+              Creators earned slave wages on other platforms so we built a solution.
+              Subscribe and watch creators like you elevate their biz game, play games
+              and create solutions that benefit you. 
             </Text>
           </FadeInEffect>
         </div>
@@ -54,8 +55,8 @@ export default function Services() {
               <HomeCell
                 icon={<PackageIcon />}
                 url="/components"
-                title="100+ React components"
-                desc="Over 100 React components, endless possibilities."
+                title="Donate live"
+                desc="Airdrop $LUV or crypto to creators live as a donation to support their channel."
               />
             </FadeInEffect>
           </Grid>
@@ -69,8 +70,8 @@ export default function Services() {
               <HomeCell
                 icon={<FeatherIcon />}
                 url="/guide/themes"
-                title="Fully and easy customizable"
-                desc="Your design, your way – our UI library is fully customizable."
+                title="Tokenized content"
+                desc="If a clip from NFTV goes viral we will tokenize it as a LUV NFT, then we auction it."
               />
             </FadeInEffect>
           </Grid>
@@ -83,9 +84,9 @@ export default function Services() {
               blur={10}>
               <HomeCell
                 icon={<GitHubIcon />}
-                url="https://github.com/red-ninjas/himalaya-ui/"
-                title="Maintained & open sourced"
-                desc="Embrace innovation with our fully open-source UI library."
+                url="/"
+                title="Grants"
+                desc="We accept proposals to elevate NFTV, $LUV grants are funded in just 3 business days."
               />
             </FadeInEffect>
           </Grid>
@@ -100,7 +101,7 @@ export default function Services() {
                 icon={<Activity />}
                 url="/"
                 title="Performance optimized"
-                desc="Powerful UI, peak performance – experience excellence with our library"
+                desc="Pitch us a live video or audio show, if we love it we will fund it with $LUV."
               />
             </FadeInEffect>
           </Grid>
