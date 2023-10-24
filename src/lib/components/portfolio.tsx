@@ -58,9 +58,9 @@ export function PortfolioItem({
           )}
 
           {!url && (
-            <Button disabled auto>
-              Coming soon
-            </Button>
+            <Link target="https://ateam.arvrtise.com" href={url}>
+            <Button auto>Invite</Button>
+          </Link>
           )}
         </FadeInEffect>
         <style jsx>{`
@@ -105,7 +105,7 @@ export default function Portfolio() {
               h4
               font={'clamp(24px, 3.1vw, 48px)'}
               style={{ fontWeight: '700', lineHeight: '1.2' }}>
-              Diverse, dynamic, and innovative: Explore real projects made with Himalaya.
+              Our social media networks consist of pay per view channels for the culture.
             </Text>
           </FadeInEffect>
           <FadeInEffect translateY="4rem">
@@ -115,10 +115,8 @@ export default function Portfolio() {
               p
               font={'clamp(14px, 1.2vw, 16px)'}
               style={{ color: theme.palette.accents_6, fontWeight: 400 }}>
-              Our UI library stands out with over 3 fully functional demo projects,
-              offering real-world application scenarios, and a rich repository of 100+
-              examples showcasing its extensive capabilities for diverse design and
-              development needs.
+              NFTV is the future of entertainment, business, dating, social media
+              , therapy and real estate. One channel, one $LUV.    
             </Text>
           </FadeInEffect>
         </div>
@@ -127,14 +125,14 @@ export default function Portfolio() {
         <Grid xs={24} md={12}>
           <div className="portfolio-list">
             <PortfolioItem
-              image="https://ibb.co/PQ7D3Nf"
+              image="https://i.ibb.co/pythGx9/healxyz-banner-578.jpg"
               width={578}
               height={578}
               title="HEALXYZ"
               desc="The world needs healing. Get paid to share your gift with subscribers in a video, live audio rooms or live on @healxyz. Your talent shines brightest when performed live."
             />
             <PortfolioItem
-              image="https://ibb.co/wJnbD77"
+              image="https://i.ibb.co/xmncVYY/luv-games-banner.jpg"
               width={578}
               height={578}
               title="LUV GAMES"
@@ -145,7 +143,7 @@ export default function Portfolio() {
         <Grid xs={24} md={12}>
           <div className="portfolio-list">
             <PortfolioItem
-              image="https://ibb.co/8PNfPMJ"
+              image="https://i.ibb.co/2cWCcqw/ADUBNB.jpg"
               width={578}
               height={578}
               title="ADUBNB"
@@ -154,9 +152,9 @@ export default function Portfolio() {
             <PortfolioItem
               width={578}
               height={578}
-              image="/images/himalaya-preview.png"
+              image="https://i.ibb.co/bW7Tyvj/ateam-578.jpg"
               title="ARVRTISE"
-              url="https://ibb.co/HFX6MPL"
+              url="https://ateam.arvrtise.com"
               desc="Get live assistance for your marketing needs, promote your business in real-time, or discover exclusive local deals."
             />
           </div>

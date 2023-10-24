@@ -100,7 +100,7 @@ export default function Services() {
               <HomeCell
                 icon={<Activity />}
                 url="/"
-                title="Performance optimized"
+                title="Pitch"
                 desc="Pitch us a live video or audio show, if we love it we will fund it with $LUV."
               />
             </FadeInEffect>

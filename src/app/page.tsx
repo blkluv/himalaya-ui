@@ -1,6 +1,7 @@
 'use client'
 
 import { Code } from 'components/icons'
+import { HeartIcon } from '@heroicons/react/solid';
 import {
   Button,
   ContentLayout,
@@ -44,7 +45,7 @@ export default function Index() {
               </Grid>
               <Grid lg={22} justify="center">
                 <Hero.Title>
-                Scaling Heights of <GradientWord>Premium Content</GradientWord> with
+                Scaling Heights of <GradientWord>Premium Content</GradientWord> with 
                 <GradientWord>Live</GradientWord> social media shows.
                 </Hero.Title>
               </Grid>
@@ -58,7 +59,7 @@ export default function Index() {
             </Grid.Container>
             <Hero.Actions>
               <Link href={'https://luvgames.luvnft.com'}>
-                <Button auto icon={<Code></Code>} scale={1.3}>
+                <Button auto icon={<HeartIcon className="w-6 h-6" />} scale={1.3}>
                   LUV Games
                 </Button>
               </Link>
