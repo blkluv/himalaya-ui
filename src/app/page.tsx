@@ -45,7 +45,7 @@ export default function Index() {
               <Grid lg={22} justify="center">
                 <Hero.Title>
                 Scaling Heights of <GradientWord>Premium Content</GradientWord> with 
-                <GradientWord>Live</GradientWord> social media shows.
+                <GradientWord> Live</GradientWord> social media shows.
                 </Hero.Title>
               </Grid>
               <Grid lg={18} justify="center">

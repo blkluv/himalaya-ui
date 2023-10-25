@@ -27,7 +27,7 @@ const TilteInjector = () => {
     ? `${capitalizeTitle} — NFTV`
     : `The highest frequency of premium social media content.`
 
-  const domain = process.env.SITE_URL || 'https://himalaya-ui.com'
+  const domain = process.env.SITE_URL || 'https://nftv.luvnft.com'
   const fullPath = `${domain}${pathName}`
   return (
     <>

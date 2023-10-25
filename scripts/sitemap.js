@@ -21,7 +21,7 @@ const exceptions = [
   '/404'
 ];
 const stream = new SitemapStream({
-  hostname: process.env.SITE_URL || 'https://himalaya-ui.com',
+  hostname: process.env.SITE_URL || 'https://nftv.luvnft.com',
 })
 
 const routes = []

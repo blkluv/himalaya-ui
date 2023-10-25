@@ -5,14 +5,14 @@
 [![NPM](https://img.shields.io/npm/v/@himalaya-ui/core.svg)](https://www.npmjs.com/package/@himalaya-ui/core)
 ![Node](https://img.shields.io/badge/node-%3E%3D18.0.0-blue.svg)
 ![NextJS](https://img.shields.io/badge/next-%3E%3D13.0.0-green.svg)
-[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://himalaya-ui.com)
+[![Documentation](https://img.shields.io/badge/documentation-yes-brightgreen.svg)](https://nftv.luvnft.com)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/red-ninjas/himalaya-ui/graphs/commit-activity)
 [![License](https://img.shields.io/github/license/red-ninjas/himalaya-ui)](https://github.com/red-ninjas/himalaya-ui/blob/master/LICENSE)
 
 
 > Himalaya is a modern and minimalist UI library for NextJS 13.
 
-### 🏠 [Homepage](https://himalaya-ui.com)
+### 🏠 [Homepage](https://nftv.luvnft.com)
 
 ### ✨ [Demo](https://github.com/red-ninjas/landing-page)
 

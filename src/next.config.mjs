@@ -26,7 +26,7 @@ const nextConfig = {
   pageExtensions: ['jsx', 'js', 'mdx', 'md', 'ts', 'tsx'],
   env: {
     VERSION: '',
-    SITE_URL: 'https://himalaya-ui.com',
+    SITE_URL: 'https://nftv.luvnft.com',
   },
   trailingSlash: false,
   images: {

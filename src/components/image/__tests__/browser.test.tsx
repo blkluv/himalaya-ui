@@ -2,7 +2,7 @@ import React from 'react';
 import { mount, render } from 'enzyme';
 import { Image } from 'components';
 
-const link = 'https://himalaya-ui.com/guide/introduction';
+const link = 'https://nftv.luvnft.com/guide/introduction';
 const url =
   'data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAUA' +
   'AAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO' +

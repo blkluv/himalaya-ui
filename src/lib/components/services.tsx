@@ -71,7 +71,7 @@ export default function Services() {
                 icon={<FeatherIcon />}
                 url="/guide/themes"
                 title="Tokenized content"
-                desc="If a clip from NFTV goes viral we will tokenize it as a LUV NFT, then we auction it."
+                desc="If a clip from NFTV goes viral we will tokenize it as a LUV NFT, then auction it."
               />
             </FadeInEffect>
           </Grid>

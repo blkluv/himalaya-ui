@@ -6,17 +6,17 @@ describe('Link', () => {
   it('should render correctly', () => {
     const wrapper = mount(
       <div>
-        <Link href="https://himalaya-ui.com">link</Link>
-        <Link href="https://himalaya-ui.com" color>
+        <Link href="https://nftv.luvnft.com">link</Link>
+        <Link href="https://nftv.luvnft.com" color>
           link
         </Link>
-        <Link href="https://himalaya-ui.com" icon>
+        <Link href="https://nftv.luvnft.com" icon>
           link
         </Link>
-        <Link href="https://himalaya-ui.com" underline>
+        <Link href="https://nftv.luvnft.com" underline>
           link
         </Link>
-        <Link href="https://himalaya-ui.com" block>
+        <Link href="https://nftv.luvnft.com" block>
           link
         </Link>
       </div>,
