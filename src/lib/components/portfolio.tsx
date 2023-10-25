@@ -105,7 +105,7 @@ export default function Portfolio() {
               h4
               font={'clamp(24px, 3.1vw, 48px)'}
               style={{ fontWeight: '700', lineHeight: '1.2' }}>
-              Our social media networks consist of pay per view channels for the culture.
+              We offer social media networks with pay-per-view channels catering to the conscious culture.
             </Text>
           </FadeInEffect>
           <FadeInEffect translateY="4rem">
@@ -115,7 +115,7 @@ export default function Portfolio() {
               p
               font={'clamp(14px, 1.2vw, 16px)'}
               style={{ color: theme.palette.accents_6, fontWeight: 400 }}>
-              NFTV is the future of entertainment, business, dating, social media
+              NFTV is the reVULution of entertainment, business, dating, social media
               , therapy and real estate. One channel, one $LUV.    
             </Text>
           </FadeInEffect>
@@ -125,27 +125,27 @@ export default function Portfolio() {
         <Grid xs={24} md={12}>
           <div className="portfolio-list">
             <PortfolioItem
-              image="https://i.ibb.co/pythGx9/healxyz-banner-578.jpg"
+              image="https://i.imgur.com/9q3mVsU.jpg"
               width={578}
               height={578}
               title="HEALXYZ"
               url="https://discord.gg/nX4HVBNJXF"
-              desc="The world needs healing. Get paid to share your gift with subscribers in a video, live audio rooms or live on @healxyz. Your talent shines brightest when performed live."
+              desc="The world needs healing. Get paid to share your gift with subscribers in a video, live audio rooms or live on @healxyz."
             />
             <PortfolioItem
-              image="https://i.ibb.co/xmncVYY/luv-games-banner.jpg"
+              image="https://i.imgur.com/6bPQDjp.jpg"
               width={578}
               height={578}
               title="LUV GAMES"
               url="https://luvgames.luvnft.com"
-              desc="Promote your business with a game to earn $LUV. Go on a live date or post a TikTok video on Zodiac Mate to attract a compatible partner."
+              desc="Promote your business channel with a game to earn $LUV. Go on a live date or post a TikTok video on Zodiac Mate to attract a compatible partner."
             />
           </div>
         </Grid>
         <Grid xs={24} md={12}>
           <div className="portfolio-list">
             <PortfolioItem
-              image="https://i.ibb.co/2cWCcqw/ADUBNB.jpg"
+              image="https://i.imgur.com/NmoIanE.jpg"
               width={578}
               height={578}
               title="ADUBNB"
@@ -155,10 +155,10 @@ export default function Portfolio() {
             <PortfolioItem
               width={578}
               height={578}
-              image="https://i.ibb.co/bW7Tyvj/ateam-578.jpg"
+              image="https://i.imgur.com/bc3WovE.jpg"
               title="ARVRTISE"
               url="https://ateam.arvrtise.com"
-              desc="Get live assistance for your marketing needs, promote your business in real-time, or discover exclusive local deals."
+              desc="Get live assistance for your marketing needs, promote your business in real-time, or discover exclusive local deals for subscribers only."
             />
           </div>
         </Grid>

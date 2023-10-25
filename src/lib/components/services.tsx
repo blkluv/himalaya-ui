@@ -86,7 +86,7 @@ export default function Services() {
                 icon={<GitHubIcon />}
                 url="/"
                 title="Grants"
-                desc="We accept proposals to elevate NFTV, $LUV grants are funded in just 3 business days."
+                desc="We accept proposals to elevate NFTV, $LUV grants are funded live."
               />
             </FadeInEffect>
           </Grid>

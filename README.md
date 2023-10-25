@@ -34,10 +34,10 @@ yarn test
 
 ## Author
 
-👤 **RedNinjas LTD**
+👤 **NFTV LTD**
 
-* Website: https://redninjas.dev
-* Github: [@red-ninjas](https://github.com/red-ninjas)
+* Website: https://luvgames.luvnft.com
+* Github: [@red-ninjas](https://github.com/blkluv)
 
 ## 🤝 Contributing
 

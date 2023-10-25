@@ -76,8 +76,8 @@ export default function DocumentationLayout({ children }) {
                 <FooterBottom.Block justify="flex-end">
                   <Text span font={'12px'}>
                     With support of{' '}
-                    <Link color href="https://redninjas.dev" target="_blank">
-                      RedNinjas LTD
+                    <Link color href="https://nftv.luvnft.com" target="_blank">
+                      NFTV LTD
                     </Link>
                   </Text>
                 </FooterBottom.Block>

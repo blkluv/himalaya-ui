@@ -77,16 +77,16 @@ export default function Facts() {
         <Grid.Container gap={5} justify="center">
         <Grid.Container>
             <Grid xs={24} md={8} justify="center">
-        <FactItem title="NFTV" amount={20} />
+        <FactItem title="NFTV" amount={20} />%
             </Grid>
+        <Grid xs={24} md={8} justify="center">
+            <FactItem title="TikTok" amount={50} />%
+        </Grid>
             <Grid xs={24} md={8} justify="center">
-        <FactItem title="TikTok" amount={50} />
-            </Grid>
-            <Grid xs={24} md={8} justify="center">
-        <FactItem title="Instagram" amount={30} />
-            </Grid>
-        </Grid.Container>
-        </Grid.Container>
+            <FactItem title="Instagram" amount={30} />%
+         </Grid>
+         </Grid.Container>
+         </Grid.Container>
 
         <style jsx>{`
           .header {

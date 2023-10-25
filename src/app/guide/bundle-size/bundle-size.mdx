@@ -1,54 +1,88 @@
 export const meta = {
-  title: 'Bundle Size',
+  title: 'LUV Games',
   group: 'Getting Started',
   index: 11,
 }
 
-# Bundle Size
+# LUV Games
 
-The size of Geist at the completion of full packing is about [111kb](https://bundle.js.org/?q=@himalaya-ui/core) (Gzipped),
-This is a good score when comparing the size of modern client applications and will not impact the performance of your application.
-As a matter of engineering practice, it is recommended that you always split Geist as a separate chunk within your application to get fixed caching.
+(H1) Get Started
 
-For higher first screen load speed, try using [Server Side Rendering](/guide/server-render) or perform volume optimization as described below.
+## Claim it
+Click the heart so we know you're not an AI robot.
 
-## Auto Tree-shaking
+## Intro
+Introduce yourself to the tribe. The first impression is everything.
 
-For projects using `webpack 5.0` or higher, there is no need to add any configuration to get full tree-shaking.
-As long as you use the ES module to import Geist, you can automatically remove unnecessary components during bundle.
+## Guides
+The laws of LUV Games.
 
-Generally this means that the scaffolding you are using needs to be larger than the following versions
+## Announcements
+LUV Games announcements.
 
-- Next.js: `>= 13.0`
+## Official Links
+The official links of LUV Games.
 
-### Recommended Examples
+## Luv
+Everything pertaining to the currency of $LUV.
 
-- [Next.js Landing Page](https://github.com/red-ninjas/landing-page)
+## Biz Marketing
+### Biz H1 Title
+Everything that pertains to marketing your business.
 
-## Import single component manually
+## Quest
+### Tribe H1 Title
+Discover new quests and see who is on top of the leaderboard.
 
-For projects with package size requirements, you can choose to import single component manually.
+## General
+General LUV Games water cooler conversations.
 
-Manually import single components does not guarantee 100% that only a single component will be packaged,
-as some components will depend on each other, for example, if only a single `Snippet` component is used in a project, the bundle package
-will also contain the `Toast` component. However, this type of optimization can still reduce the size of your application significantly,
-provided you only use a small amount components.
+## Barter
+Find businesses that accept $LUV.
 
-```jsx
-import Button from '@himalaya-ui/core/button'
+## Lnelords
+Discover real estate properties within your budget and network with others to help them level up on [Lnelord](https://lnelord.luvnft.com/#17/33.755215/-84.373335/0/48).
 
-const MyComponent = () => <Button>Submit</Button>
-```
+## Atl5d-911
+Become a hero by helping someone in need of something that you can help them with.
 
-## With Babel
+## Fireside Chat
+Tell your struggle or success story to help others on the same path.
 
-If your project does not support ES Module at the moment, you can use the Babel plugin to reduce the build size.
+## FAQ
+Ask us anything.
 
-Geist follows the Tree Shaking naming scheme (from community convention), this will be helpful for some legacy projects.
-This allows you to import in the full amount of components, but automatically exclude the parts that are not really used when packaging.
-This feature is usually used in conjunction with the [babel-plugin-import](https://www.npmjs.com/package/babel-plugin-import) tool.
+## Suggestions
+Make suggestions to us or others about how they can improve their business. (No spamming).
 
-A classic use case is to add the following config to the `.babelrc`:
+## Trouble Ticket
+Let us know what's broken, and we will fix it.
+
+## Biz Lounge
+Schedule a business event in here.
+
+(H1) Find Love Subscribers
+
+(H1) Luv Metaverse
+### Find Love H1 Title
+Connect with our tribe members in our Metaverse space. Schedule a Metaverse date event.
+
+## Date Night
+Tap into date night events. Speak it into existence, and you will meet your soul mate.
+
+## Why
+Ask why, and the universe will answer your question.
+
+## Zodiac Mate
+Embed your TikTok video or post a video of yourself and your compatible zodiac mate.
+
+## Rank Check
+Check the status of your rank.
+
+## Invite Check
+We have proof of who invites the most people to LUV Games.
+
+[Visit LUV Games](https://luvgames.luvnft.com)
 
 ```json
 // NAME:.babelrc
