@@ -65,7 +65,7 @@ const nextConfig = {
       {
         source: '/guide',
         permanent: true,
-        destination: '/guide/introduction',
+        destination: '/guide/Ateam',
       },
       {
         source: '/hooks',

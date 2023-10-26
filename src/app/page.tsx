@@ -43,10 +43,10 @@ export default function Index() {
                 <Hero.Tag>NFTV</Hero.Tag>
               </Grid>
               <Grid lg={22} justify="center">
-                <Hero.Title>
-                Scaling Heights of <GradientWord>Premium Content</GradientWord> with 
-                <GradientWord> Live</GradientWord> social media shows.
-                </Hero.Title>
+                 <Hero.Title>
+                 Scaling Heights of <GradientWord>Premium Content</GradientWord> with 
+                 <GradientWord>Live</GradientWord> social media shows.
+                 </Hero.Title>
               </Grid>
               <Grid lg={18} justify="center">
                 <Hero.Desc>

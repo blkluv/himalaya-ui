@@ -149,6 +149,8 @@ export function BrandLogo({ size = 24 }: { size?: number }) {
       xmlns="http://www.w3.org/2000/svg">
       <path d="M129 338L90 267.5L0 422H403.5L244.5 141L129 338Z" fill="currentColor" />
       <path d="M304.5 219L433.5 0L681 422H419.5L304.5 219Z" fill="currentColor" />
+      {/* Add the text "NFTV" */}
+      <text x="10" y="400" fill="currentColor" fontSize="32">NFTV</text>
     </svg>
   )
 }

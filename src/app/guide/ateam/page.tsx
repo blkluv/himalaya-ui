@@ -1,5 +1,5 @@
 'use client'
-import Documentation from './introduction.mdx'
+import Documentation from './ateam.mdx'
 
 export default function Page() {
   return <Documentation />

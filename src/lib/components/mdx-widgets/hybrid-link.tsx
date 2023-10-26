@@ -8,7 +8,7 @@ export type HybridLinkProps = LinkProps
 const HybridLink: React.FC<HybridLinkProps> = ({ href = '#', children, ...props }) => {
   const isRelativeUrl = !/^([a-z0-9]*:|.{0})\/\/.*$/gim.test(href)
   const pathname = usePathname()
-  const isHomePage = pathname.includes('guide/introduction')
+  const isHomePage = pathname.includes('guide/ateam')
 
   if (isRelativeUrl) {
     return (
