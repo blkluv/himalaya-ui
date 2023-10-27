@@ -30,7 +30,7 @@ const nextConfig = {
   },
   trailingSlash: false,
   images: {
-    domains: ['deelay.me', 'www.deelay.me', '**'],
+    domains: ['luvnft.com', 'www.luvnft.com', '**'],
     remotePatterns: [
       {
         protocol: 'https',
@@ -48,7 +48,7 @@ const nextConfig = {
         destination: '/components/icons',
       },
       {
-        source: '/customization',
+        source: '/products',
         destination: '/',
         permanent: true,
       },

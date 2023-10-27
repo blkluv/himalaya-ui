@@ -12,7 +12,7 @@ const weights = {
   docs: 2,
   'getting-started': 3,
   components: 5,
-  customization: 10,
+  products: 10,
 }
 const groupWeights = {
   general: 1,
