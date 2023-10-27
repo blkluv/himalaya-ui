@@ -1,5 +1,5 @@
 'use client'
-import Documentation from './server-render.mdx'
+import Documentation from './adubnb.mdx'
 
 export default function Page() {
   return <Documentation />
