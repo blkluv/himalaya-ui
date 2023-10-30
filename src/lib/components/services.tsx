@@ -109,8 +109,9 @@ export default function Services() {
 
         <div className="action-button">
           <FadeInEffect translateY="4rem" width={'auto'} blur={10}>
+          <a href="https://linktr.ee/luvnft" target="_blank" rel="noopener noreferrer">
             <Button type="secondary" auto scale={1.3}>
-              Read documentation
+              Follow @LUVNFT
             </Button>
           </FadeInEffect>
         </div>
