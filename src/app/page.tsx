@@ -44,7 +44,7 @@ export default function Index() {
               </Grid>
               <Grid lg={22} justify="center">
                  <Hero.Title>
-                 Scaling Heights of <GradientWord>Premium Content</GradientWord> with 
+                 PPV <GradientWord>Premium Content</GradientWord> with <br></br>
                  <GradientWord>Live</GradientWord> social media shows.
                  </Hero.Title>
               </Grid>
@@ -52,7 +52,7 @@ export default function Index() {
                 <Hero.Desc>
                   Elevate your entertainment with content that aligns with your vibe.
                   Subscribe to creator channels you want to tap into, free from algorithms
-                  and ads. Be part of shaping the future of NFTV by casting your vote.
+                  and ads. Earn live $LUV tokens and gifts.
                 </Hero.Desc>
               </Grid>
             </Grid.Container>
