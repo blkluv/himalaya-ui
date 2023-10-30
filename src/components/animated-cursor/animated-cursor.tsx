@@ -8,7 +8,7 @@ import type {
   AnimatedCursorOptions,
   AnimatedCursorProps,
   Clickable,
-} from './';
+} from '.';
 import find from './find';
 import { useEventListener } from './useEventListener';
 import isDevice from './is-device';

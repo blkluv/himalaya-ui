@@ -9,7 +9,7 @@ import {
   useSidebar,
   useTheme,
   withScale,
-} from '../';
+} from '..';
 import useLayout from '../use-layout';
 
 export interface SidebarLayoutProps {

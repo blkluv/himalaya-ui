@@ -44,8 +44,7 @@ export default function Index() {
               </Grid>
               <Grid lg={22} justify="center">
                  <Hero.Title>
-                 PPV <GradientWord>Premium Content</GradientWord> with <br></br>
-                 <GradientWord>Live</GradientWord> social media shows.
+                 Subscribe To <GradientWord>Live</GradientWord> PPV <GradientWord>Premium Content</GradientWord>
                  </Hero.Title>
               </Grid>
               <Grid lg={18} justify="center">

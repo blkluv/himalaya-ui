@@ -1,5 +1,5 @@
 'use client';
-import type { Props, ReturnProps } from './';
+import type { Props, ReturnProps } from '.';
 import { useCountUp } from './useCountUp';
 
 export interface CountUpProps {

@@ -1,4 +1,4 @@
-import { Avatar, Popover, useScale, withScale } from '../';
+import { Avatar, Popover, useScale, withScale } from '..';
 
 import React, { PropsWithChildren } from 'react';
 

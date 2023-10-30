@@ -60,12 +60,12 @@ const nextConfig = {
       {
         source: '/components',
         permanent: true,
-        destination: '/components/text',
+        destination: '/creators/text',
       },
       {
         source: '/guide',
         permanent: true,
-        destination: '/guide/Ateam',
+        destination: '/guide',
       },
       {
         source: '/hooks',

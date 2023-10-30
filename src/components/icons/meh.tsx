@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import { IconPropsNative } from './';
+import { IconPropsNative } from '.';
 const Meh = ({ size = 24, color, style, ...props }: IconPropsNative) => {
   return (
     <svg

@@ -1,4 +1,4 @@
-import type { Easing } from './';
+import type { Easing } from '.';
 
 export const easings = {
   easeInCubic: (t: number, b: number, c: number, d: number): number => {

@@ -6,7 +6,7 @@ import {
   Text,
   useTheme,
 } from 'components'
-import { RedNinjas, Striked } from './icons'
+import { RedNinjas, Striked, Instagram, TikTok, Google } from './icons'
 
 export default function Partners() {
   const theme = useTheme()
@@ -22,7 +22,7 @@ export default function Partners() {
         <ContentLayout>
           <Carousel
             options={{
-              perPage: 6,
+              perPage: 6, // Set the number of visible items to 6
               type: 'loop',
               pagination: true,
               arrows: false,
@@ -50,52 +50,27 @@ export default function Partners() {
             }}>
             <CarouselItem>
               <a className="partner">
-                <Striked></Striked>
-              </a>
-            </CarouselItem>
-            <CarouselItem>
-              <a className="partner">
-                <Striked></Striked>
-              </a>
-            </CarouselItem>
-            <CarouselItem>
-              <a className="partner">
-                <Striked></Striked>
-              </a>
-            </CarouselItem>
-            <CarouselItem>
-              <a className="partner">
-                <Striked></Striked>
-              </a>
-            </CarouselItem>
-            <CarouselItem>
-              <a className="partner">
-                <Striked></Striked>
-              </a>
-            </CarouselItem>
-            <CarouselItem>
-              <a className="partner">
-                <Striked></Striked>
-              </a>
-            </CarouselItem>
-            <CarouselItem>
-              <a className="partner">
-                <Striked></Striked>
-              </a>
-            </CarouselItem>
-            <CarouselItem>
-              <a className="partner">
-                <Striked></Striked>
-              </a>
-            </CarouselItem>
-            <CarouselItem>
-              <a className="partner">
-                <Striked></Striked>
-              </a>
-            </CarouselItem>
-            <CarouselItem>
-              <a className="partner">
                 <RedNinjas></RedNinjas>
+              </a>
+            </CarouselItem>
+            <CarouselItem>
+              <a className="partner">
+                <Instagram></Instagram>
+              </a>
+            </CarouselItem>
+            <CarouselItem>
+              <a className="partner">
+                <TikTok></TikTok>
+              </a>
+            </CarouselItem>
+            <CarouselItem>
+              <a className="partner">
+                <Google></Google>
+              </a>
+            </CarouselItem>
+            <CarouselItem>
+              <a className="partner">
+                <Striked></Striked>
               </a>
             </CarouselItem>
             <CarouselItem>

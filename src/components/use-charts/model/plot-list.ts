@@ -2,8 +2,8 @@ import { lowerbound, upperbound } from '../helpers/algorithms';
 import { ensureNotNull } from '../helpers/assertions';
 import { Nominal } from '../helpers/nominal';
 
-import { PlotRow, PlotRowValueIndex } from '../model/plot-data';
-import { TimePointIndex } from '../model/time-data';
+import { PlotRow, PlotRowValueIndex } from './plot-data';
+import { TimePointIndex } from './time-data';
 
 /**
  * Search direction if no data found at provided index

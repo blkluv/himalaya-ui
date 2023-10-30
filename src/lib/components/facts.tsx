@@ -27,7 +27,7 @@ export function FactItem({ amount = 0, title = '' }: { amount?: number; title: s
         <CountUp start={0} end={amount} easing="linear" isCounting={isPlaying}>
           {({ value }) => (
             <Text margin={0} font={'72px'} style={{ fontWeight: '500' }}>
-              {value}+
+              {value}%
             </Text>
           )}
         </CountUp>

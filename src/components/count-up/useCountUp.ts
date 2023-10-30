@@ -1,6 +1,6 @@
 'use client';
 import { useElapsedTime } from 'use-elapsed-time';
-import type { Props, ReturnProps } from './';
+import type { Props, ReturnProps } from '.';
 import { defaultEasing, getEasing } from './easing';
 
 const getDuration = (end?: number, duration?: number) => {

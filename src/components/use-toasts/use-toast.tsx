@@ -2,7 +2,7 @@
 
 import React, { CSSProperties, useEffect } from 'react';
 import { useConfigs, defaultToastLayout } from '../use-context';
-import { ToastPlacement } from '../use-toasts/helpers';
+import { ToastPlacement } from './helpers';
 import { getId } from '../utils/collections';
 import type { NormalTypes } from '../utils/prop-types';
 

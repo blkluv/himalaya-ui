@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import { IconPropsNative } from './';
+import { IconPropsNative } from '.';
 const ChevronLeftCircleFill = ({
   size = 24,
   color,
