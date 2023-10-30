@@ -108,12 +108,13 @@ export default function Services() {
         </Grid.Container>
 
         <div className="action-button">
-          <FadeInEffect translateY="4rem" width={'auto'} blur={10}>
-          <a href="https://linktr.ee/luvnft" target="_blank" rel="noopener noreferrer">
+            <FadeInEffect translateY="4rem" width={'auto'} blur={10}>
+            <a href="https://linktr.ee/luvnft" target="_blank" rel="noopener noreferrer">
             <Button type="secondary" auto scale={1.3}>
-              Follow @LUVNFT
+             Follow @LUVNFT
             </Button>
-          </FadeInEffect>
+            </a>
+            </FadeInEffect>
         </div>
 
         <style jsx>{`

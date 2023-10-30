@@ -7,7 +7,7 @@ import {
   Text,
   useTheme,
 } from 'components';
-import useVisible from '/Users/thewizardofhahz/himalaya-ui/src/components/utils/use-visibile'; // Update the import path here
+import useVisible from '../../src/components/utils/use-visible'; // Update the import path here
 import { useEffect, useRef, useState } from 'react';
 
 export function FactItem({ amount = 0, title = '' }: { amount?: number; title: string }) {
