@@ -1,5 +1,5 @@
 'use client'
-import Documentation from './use-body-scroll.mdx'
+import Documentation from './luv-nft-tip.mdx'
 
 export default function Page() {
   return <Documentation />

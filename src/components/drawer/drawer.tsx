@@ -2,7 +2,7 @@
 import React, { MouseEvent, useEffect, useState } from 'react';
 import { withScale } from '../use-scale';
 import usePortal from '../utils/use-portal';
-import useBodyScroll from '../utils/use-body-scroll';
+import TIP from '../luv-nft-tip';
 import useKeyboard, { KeyCode } from '../use-keyboard';
 import { createPortal } from 'react-dom';
 import Backdrop from '../shared/backdrop';
@@ -40,7 +40,7 @@ const DrawerComponent: React.FC<React.PropsWithChildren<DrawerProps>> = ({
 }: React.PropsWithChildren<DrawerProps>) => {
   const portal = usePortal('drawer');
   const [visible, setVisible] = useState<boolean>(false);
-  const [, setBodyHidden] = useBodyScroll(null, { delayReset: 300 });
+  const [, setBodyHidden] = TIP(null, { delayReset: 300 });
 
   const closeDrawer = () => {
     onClose && onClose();

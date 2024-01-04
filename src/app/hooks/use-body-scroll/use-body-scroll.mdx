@@ -1,46 +1,33 @@
 import { Layout, Playground, Attributes } from 'lib/components'
-import { Button, Spacer, Text, useBodyScroll } from 'components'
+import { Button, Spacer, Text, TIP } from 'components'
 
 export const meta = {
-  title: 'useBodyScroll',
-  group: 'Utilities',
+  title: 'LUV NFT TIP',
+  group: 'Pay',
 }
 
-# useBodyScroll
+# LUV NFT TIP
 
-## Basic usage
+## Purpose
 
-Disable scrolling behavior for body or any element, it is useful for displaying popup element or menus.
+Send crypto to anyone, even if they don't have a wallet. No app needed!  
 
-If the page's scrollbar is set to a user-defined `width` before scrolling is disabled, a `paddingRight` value will be added after disabling to adapt.
+## How
 
-<Playground
-  desc="Click button to disable scrolling."
-  scope={{ Button, Spacer, Text, useBodyScroll }}
-  code={`
-() => {
-  const [hidden, setHidden] = useBodyScroll()
-  return (
-    <>
-      <Text small b type={hidden ? 'error' : 'default'}>{hidden ? 'Body disabled.' : 'Body can be scrolled.'}</Text>
-      <Spacer h={.75} />
-      <Button scale={0.5} type="success" auto onClick={() => setHidden(true)}>disable scroll</Button>
-      <Button ml="20px" scale={0.5} type="secondary" auto onClick={() => setHidden(false)}>reset</Button>
-    </>
-  )
-}
-`}
-/>
+1. Buy crypto with a debit card from Stripe <a href="https://crypto.link.com/?ref=lb" target="_blank">here</a>.  
 
-<Attributes edit="/pages/hooks/use-body-scroll.mdx">
-<Attributes.Title>useBodyScroll</Attributes.Title>
+2. Visit https://tip.luvft.com and create a Tip link.
+
+
+<Attributes edit="/pages/web5/luv-nft-tip.mdx">
+<Attributes.Title>TIP</Attributes.Title>
 
 ```ts
 type BodyScrollOptions = {
   delayReset: number // resume scrolling after a delay, default is 0
 }
 
-const useBodyScroll = (
+const TIP = (
   elementRef?: RefObject<HTMLElement> | null,
   options?: BodyScrollOptions,
 ) => [boolean, Dispatch<SetStateAction<boolean>>]

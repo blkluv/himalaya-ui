@@ -68,9 +68,9 @@ const nextConfig = {
         destination: '/guide',
       },
       {
-        source: '/hooks',
+        source: '/web5',
         permanent: true,
-        destination: '/hooks/use-keyboard',
+        destination: '/web5/use-keyboard',
       },
     ]
   },

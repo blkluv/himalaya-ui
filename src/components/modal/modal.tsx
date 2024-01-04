@@ -8,7 +8,6 @@ import ModalActions from './modal-actions';
 import Backdrop from '../shared/backdrop';
 import { ModalConfig, ModalContext } from './modal-context';
 import { pickChild } from '../utils/collections';
-import useBodyScroll from '../utils/use-body-scroll';
 import useScale, { withScale } from '../use-scale';
 import useKeyboard, { KeyCode } from '../use-keyboard';
 
@@ -41,7 +40,7 @@ const ModalComponent: React.FC<React.PropsWithChildren<ModalProps>> = ({
 }: React.PropsWithChildren<ModalProps>) => {
   const portal = usePortal('modal');
   const { SCALES } = useScale();
-  const [, setBodyHidden] = useBodyScroll(null, { delayReset: 300 });
+  const [, setBodyHidden] = TIP(null, { delayReset: 300 });
   const [visible, setVisible] = useState<boolean>(false);
   const [withoutActionsChildren, ActionsChildren] = pickChild(children, ModalAction);
   const hasActions = ActionsChildren && React.Children.count(ActionsChildren) > 0;

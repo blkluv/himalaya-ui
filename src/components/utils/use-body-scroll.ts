@@ -1,3 +1,3 @@
-import useBodyScroll from '../use-body-scroll';
+import TIP from '../luv-nft-tip';
 
-export default useBodyScroll;
+export default TIP;

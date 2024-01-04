@@ -1,6 +1,6 @@
 'use client'
 
-import { Anchor, Code, Github, Home, Layout } from 'components/icons'
+import { Anchor, Code, Globe, Tv, Heart, DollarSign, Emoji, Home, Layout } from 'components/icons'
 import { MDXProvider } from '@mdx-js/react/lib'
 import {
   AnimatedCursor,
@@ -116,7 +116,7 @@ export const CoreLayout = ({ children }: { children: React.ReactNode }) => {
                   </Header>
                 </FixedHeader>
                 <MobileMenu>
-                  <MobileMenu.Item url="/" title="Home" />
+                  <MobileMenu.Item url="https://nftv.luvnft.com" title="Home" />
                   {metaData.map((df, index) => (
                     <MobileMenu.Group key={index} title={capitalize(df.name)}>
                       {df.children.map((child, childIndex) => (
@@ -138,38 +138,41 @@ export const CoreLayout = ({ children }: { children: React.ReactNode }) => {
                 <MDXProvider components={MdxComponents}>{children}</MDXProvider>
               </ScrollableLayout>
               <QuickBar>
-                <QuickAction type="lite" href="/" radius={50} tooltip="Home">
+                <QuickAction type="lite" href="https://nftv.luvnft.com" radius={50} tooltip="Home">
                   <Home size={20} />
                 </QuickAction>
                 <Divider width={'100%'}></Divider>
                 <QuickAction
                   type="lite"
                   radius={50}
-                  href="/guide"
+                  href="https://tv.arvrtise.com"
                   exactMatch={false}
-                  tooltip="Guide">
-                  <Code size={20} />
+                  tooltip="tv">
+                  <Tv size={20} />
                 </QuickAction>
                 <QuickAction
                   type="lite"
                   radius={50}
-                  href="/components"
+                  href="https://luvnft.com"
                   exactMatch={false}
-                  tooltip="Components">
-                  <Layout size={20} />
+                  tooltip="LUV NFT">
+                  <Heart size={20} />
                 </QuickAction>
                 <QuickAction
                   type="lite"
                   radius={50}
-                  href="/hooks"
+                  href="/web5"
                   exactMatch={false}
-                  tooltip="Hooks">
-                  <Anchor size={20} />
+                  tooltip="Emoji">
+                  <Globe size={20} />
                 </QuickAction>
                 <Divider width={'100%'}></Divider>
 
-                <QuickAction type="lite" radius={50} tooltip="On Github">
-                  <Github size={20} />
+                <QuickAction type="lite" 
+                   radius={50} 
+                   href="https://tip.luvnft.com"
+                   tooltip="TIP">
+                  <DollarSign size={20} />
                 </QuickAction>
               </QuickBar>
             </QuickBarLayout>

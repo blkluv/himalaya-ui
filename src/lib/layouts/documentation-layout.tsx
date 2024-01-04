@@ -75,9 +75,9 @@ export default function DocumentationLayout({ children }) {
                 <FooterBottom.Block></FooterBottom.Block>
                 <FooterBottom.Block justify="flex-end">
                   <Text span font={'12px'}>
-                    With support of{' '}
-                    <Link color href="https://nftv.luvnft.com" target="_blank">
-                      NFTV LTD
+                    Powered by{' '}
+                    <Link color href="https://luvnft.com" target="_blank">
+                      LUV NFT
                     </Link>
                   </Text>
                 </FooterBottom.Block>

@@ -29,7 +29,7 @@ const getOwnerScrollbarWidth = (element: Element): number => {
   return Math.abs(window.innerWidth - doc.documentElement.clientWidth);
 };
 
-const useBodyScroll = (
+const TIP = (
   elementRef?: RefObject<HTMLElement> | null,
   options?: BodyScrollOptions,
 ): [boolean, Dispatch<SetStateAction<boolean>>] => {
@@ -86,4 +86,4 @@ const useBodyScroll = (
   return [hidden, setHidden];
 };
 
-export default useBodyScroll;
+export default TIP;

@@ -194,8 +194,8 @@ export type { Toast, ToastInput, ToastAction, ToastLayout } from './use-toasts';
 export { default as User } from './user';
 export type { UserProps } from './user';
 
-export { default as useBodyScroll } from './use-body-scroll';
-export type { BodyScrollOptions } from './use-body-scroll';
+export { default as TIP } from './luv-nft-tip';
+export type { BodyScrollOptions } from './luv-nft-tip';
 
 export { default as useClipboard } from './use-clipboard';
 export type { UseClipboardOptions } from './use-clipboard';
